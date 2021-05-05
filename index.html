@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="imagens/Saturn-icon.png" type="image/x-icon">
+  <title>APOD</title>
+</head>
+<body>
+  <header>Astronomy Picture of the Day</header>
+  <p>A cada dia, uma imagem ou fotografia diferente de nosso fascinante universo é apresentada, junto com uma breve explicação escrita por um astrônomo profissional.</p>
+  <p>Escolha uma data e conheça mais sobre o espaço!</p>
+  
+  <form id="consulta">
+    <input type="date" id="data" />
+    <button type="submit">Pesquisar</button>
+  </form>
+
+  <div id="resultado">
+    <div id="informacoes"></div>
+    <div id="imagem"></div>
+  </div>
+
+  <script src="jquery.js"></script>
+  <script src="script.js"></script>
+
+  <footer>
+    <p class="copyright">&copy; Copyright Astronomy Picture of the Day - 2021</p>
+  </footer>
+</body>
+</html>
